@@ -1102,7 +1102,10 @@ y-axis
 .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
 .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
-  transition: width .2s ease-out .2s, height .2s ease-out .2s,  margin-left .2s ease-out .2s, margin-right .2s ease-out .2s,  margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+  transition: width .2s ease-out .2s, height .2s ease-out .2s, 
+ margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, 
+ margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
+ opacity .2s ease-in-out, background-color .2s ease-in-out;
 }
 
 .header {
@@ -2242,17 +2245,17 @@ y-axis
 
 .service__block-b--cut {
   background: #302c2c url(../img/bg-service-cut.jpg) top center no-repeat;
-  background-size: 100% auto;
+  background-size:  auto 100%;
 }
 
 .service__block-b--paint {
   background: #302c2c url(../img/bg-service-paint.jpg) top center no-repeat;
-  background-size: 100% auto;
+  background-size: auto 100% ;
 }
 
 .service__block-b:hover {
   transition: all .3s linear;
-  background-size: 120% auto;
+  background-size: auto 120% ;
 }
 
 .service__text-b {
@@ -4252,7 +4255,11 @@ a.reviews__original:hover {
   display: block;
   height: auto;
   width: 100%;
-  box-shadow: 20px 20px 0 0 #282828,  -19px -19px 0 0 #fff,  -18px -20px 0 0 #e7b85c, -20px -18px 0 0 #e7b85c,  -20px -20px 0 0 #e7b85c;
+  box-shadow: 20px 20px 0 0 #282828, 
+ -19px -19px 0 0 #fff, 
+ -18px -20px 0 0 #e7b85c,
+ -20px -18px 0 0 #e7b85c, 
+ -20px -20px 0 0 #e7b85c;
   overflow-x: hidden;
 }
 
